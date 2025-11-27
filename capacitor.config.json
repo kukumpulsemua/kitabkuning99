@@ -1,0 +1,14 @@
+{
+  "appId": "id.bedahkitab.app",
+  "appName": "Bedah Kitab Kuning",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
