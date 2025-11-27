@@ -104,7 +104,7 @@ export default async function handler(req, res) {
     // Jika loop selesai tanpa return sukses (semua kunci dicoba gagal)
     return res.status(429).json({ 
       error: 'Server Busy',
-      details: 'Sistem sedang sangat sibuk. Silakan coba lagi beberapa saat lagi atau gunakan API Key pribadi di menu Pengaturan.'
+      details: 'Sistem sedang sangat sibuk. Silakan coba lagi beberapa saat lagi.'
     });
 
   } catch (error) {
